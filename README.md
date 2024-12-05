@@ -1,7 +1,7 @@
 # RL24_HW3
 HOMEWORK_3
 # RL24_HW_3 Updated Instructions
-
+Ferdinando Dionisio, Vittorio Lisi, Giovanni Gabriele Imbimbo, Emanuele Cifelli
 ## Overview
 
 This guide provides updated instructions for working with the robotics package, focusing on Gazebo simulation with velocity controllers, positioning tasks, OpenCV integration, and ArUco marker tracking.
