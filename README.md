@@ -1,5 +1,6 @@
 # RL24_HW_3 Instructions HOMEWORK_3
 Ferdinando Dionisio, Vittorio Lisi, Giovanni Gabriele Imbimbo, Emanuele Cifelli
+ATTENZIONE:Se ci sono problemi con git clone scaricare zip
 ## Overview
 
 This guide provides updated instructions for working with the robotics package, focusing on Gazebo simulation with velocity controllers, positioning tasks, OpenCV integration, and ArUco marker tracking.
@@ -10,7 +11,7 @@ This guide provides updated instructions for working with the robotics package, 
 
 Ensure that the repository has been cloned and the workspace is built:
 ```bash
-https://github.com/Emacif/RL24_HW3.git
+git clone https://github.com/vitlisi/RL24_HW3.git
 colcon build
 source install/setup.bash
 ```
