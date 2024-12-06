@@ -21,7 +21,7 @@ When cloning the repository with `git clone`, the command downloads a single dir
 ### Move all folders and files to `src` and delete the parent directory:
 ```bash
 mv ~/ros2_ws/src/RL_24_Homewrok_3_Robotics/* ~/ros2_ws/src/
-rm -rf ~/ros2_ws/src/RL_24_Homewrok_3_Robotics
+rm -rf ~/ros2_ws/src/RL24_HW3
 ```
 
 ---
