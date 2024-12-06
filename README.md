@@ -18,7 +18,16 @@ source install/setup.bash
 ```
 
 ---
+## Remember
+When cloning the repository with git clone, the command downloads a single directory containing all files. This may create directory structure issues. It is recommended to manually move all the folders to the src directory or use the following commands:
 
+### Move all folders and files to src and delete the parent directory:
+bash
+mv ~/ros2_ws/src/RL_24_Homewrok_3_Robotics/* ~/ros2_ws/src/
+rm -rf ~/ros2_ws/src/RL_24_Homewrok_3_Robotics
+
+
+---
 ## Launching Simulation in Gazebo
 
 ### Launch the IIWA Robot with Velocity Controller and Camera Enabled
