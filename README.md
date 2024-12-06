@@ -1,5 +1,5 @@
 # RL24_HW3
-HOMEWORK_3
+HOMEWORK_3 Se ci dovessero essere preblemi con il gitclone, perchè la cartella iiwa non è stata correttamente caricata su gitHub usare il file HW3.zip
 # RL24_HW_3 Updated Instructions
 Ferdinando Dionisio, Vittorio Lisi, Giovanni Gabriele Imbimbo, Emanuele Cifelli
 ## Overview
@@ -12,7 +12,7 @@ This guide provides updated instructions for working with the robotics package, 
 
 Ensure that the repository has been cloned and the workspace is built:
 ```bash
-https://github.com/vitlisi/RL24_HW3.git
+git clone https://github.com/vitlisi/RL24_HW3.git
 colcon build
 source install/setup.bash
 ```
