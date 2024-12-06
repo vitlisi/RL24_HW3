@@ -1,6 +1,4 @@
-# RL24_HW3
-HOMEWORK_3 Se ci dovessero essere preblemi con il gitclone, perchè la cartella iiwa non è stata correttamente caricata su gitHub usare il file HW3.zip
-# RL24_HW_3 Updated Instructions
+# RL24_HW_3 Instructions HOMEWORK_3
 Ferdinando Dionisio, Vittorio Lisi, Giovanni Gabriele Imbimbo, Emanuele Cifelli
 ## Overview
 
@@ -12,22 +10,21 @@ This guide provides updated instructions for working with the robotics package, 
 
 Ensure that the repository has been cloned and the workspace is built:
 ```bash
-git clone https://github.com/vitlisi/RL24_HW3.git
+https://github.com/Emacif/RL24_HW3.git
 colcon build
 source install/setup.bash
 ```
-
----
 ## Remember
-When cloning the repository with git clone, the command downloads a single directory containing all files. This may create directory structure issues. It is recommended to manually move all the folders to the src directory or use the following commands:
+When cloning the repository with `git clone`, the command downloads a single directory containing all files. This may create directory structure issues. It is recommended to manually move all the folders to the `src` directory or use the following commands:
 
-### Move all folders and files to src and delete the parent directory:
+### Move all folders and files to `src` and delete the parent directory:
 ```bash
 mv ~/ros2_ws/src/RL_24_Homewrok_3_Robotics/* ~/ros2_ws/src/
 rm -rf ~/ros2_ws/src/RL_24_Homewrok_3_Robotics
-
+```
 
 ---
+
 ## Launching Simulation in Gazebo
 
 ### Launch the IIWA Robot with Velocity Controller and Camera Enabled
